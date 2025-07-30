@@ -8,7 +8,7 @@ public class GameMain01 {
         ork = new Game01();
 
         gough.name = "gough";
-        gough.strength = 290;
+        gough.strength = 500;
         gough.agility = 40;
         gough.intelligence = 220;
         gough.stamina = 150;
