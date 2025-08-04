@@ -8,7 +8,7 @@ public class GameMain01 {
         ork = new Game01();
 
         gough.name = "gough";
-        gough.strength = 500;
+        gough.strength = 290;
         gough.agility = 40;
         gough.intelligence = 220;
         gough.stamina = 150;
@@ -16,6 +16,10 @@ public class GameMain01 {
         gough.morality = "충성스러움";
         gough.bravery = "겁쟁이";
         gough.charisma = "우물거림";
+
+        gough.display();
+        String message = gough.getRaceName(1);
+        System.out.println(message);
 
         System.out.println("이름 : " + gough.name);
         System.out.println("힘 : " + gough.strength + " (강함)");
@@ -36,6 +40,10 @@ public class GameMain01 {
         ork.morality = "게으름";
         ork.bravery = "희생정신";
         ork.charisma = "재빠른";
+
+        ork.display();
+        message = ork.getRaceName(2);
+        System.out.println(message);
 
         System.out.println("이름 : " + ork.name);
         System.out.println("힘 : " + ork.strength + " (매우약함)");

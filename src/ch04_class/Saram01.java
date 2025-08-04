@@ -16,7 +16,7 @@ public class Saram01 {
     String showGenderInfo(int juminno) {
         String gender = "";
 
-        if (juminno == 1 || juminno == 3) {
+        if (juminno == 1 || juminno == 2) {
             gender = "남자";
         }else{
             gender = "여자";

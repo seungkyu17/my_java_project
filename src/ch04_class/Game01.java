@@ -11,17 +11,19 @@ public class Game01 {
     String bravery;
     String charisma;
 
-    String getRaceName(int num){
+    String getRaceName(int num) {
         String getRaceName = "";
 
-        if (num == 1 || num == 2){
-            getRaceName = "리자드맨";
-        }else{
-            getRaceName = "오크";
+        if (num == 1 || num == 2) {
+            getRaceName = " 리자드 파이어맨";
+        } else {
+            getRaceName = " 오크 매직";
         }
-        String message = name + "캐릭터는 정직한 스타일의 기사입니다";
+        String message = name + " 캐릭터는" + getRaceName + "으로 보인다.";
         return message;
     }
 
-
+    void display() {
+        System.out.println("- " + name + " 캐릭터의 Stats" + " -");
+    }
 }
