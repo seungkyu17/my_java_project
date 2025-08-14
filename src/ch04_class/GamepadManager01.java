@@ -2,12 +2,12 @@ package ch04_class;
 
 public class GamepadManager01 {
     String name;
-    int number_of_buttons;
-    String input_type;
-    String connection_type;
-    String compatibility;
-    String vibration_feedback;
-    String battery_life;
+    String connection_mode;
+    String compatible;
+    String input_device;
+    String battery;
+    String oscillatory_function;
+    String sensor;
     String material;
     int weight;
 

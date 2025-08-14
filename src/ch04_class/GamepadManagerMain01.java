@@ -8,6 +8,6 @@ public class GamepadManagerMain01 {
         playStation_controller = new GamepadManager01();
 
         xbox_controller.name = "X-Pad!!";
-        xbox_controller.number_of_buttons = 12;
+      //  xbox_controller.number_of_buttons = 12;
     }
 }
